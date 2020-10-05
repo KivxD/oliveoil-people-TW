@@ -13,8 +13,8 @@
 
   <div class="right-0 top-0 z-50 h-full w-full md:hidden fixed transform translate-x-full  duration-500 ease-in" style="background-color: #cecac8;" id="menu">
 
-    <div class="cursor-pointer absolute top-0 right-0 m-4" id="navToggle1">
-      <svg class="h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <div class="cursor-pointer absolute top-0 right-0 m-4 p-4" id="navToggle1">
+      <svg class="h-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
       </svg>
 
@@ -31,21 +31,27 @@
   </div>
 
   <div class="flex">
-    <header class="top-0 h-24 w-full z-20" style="background-color: #cecac8;">
+    <header class="top-0 h-24 w-full z-20 flex" style="background-color: #cecac8;">
 
-      <div class="mt-3 ml-2 flex flex-col items-center w-1/2">
-
-
+      <div class="flex flex-col items-center justify-center h-24 w-1/4 p-4">
 
         <p style="color: #cb483b; font-size: 1.5em; letter-spacing: 3.5px;">oliveoilpeople</p>
-        <p class="" style="color: #cb483b; font-size: 0.5em; letter-spacing: 5px;">SINGAPORE</p>
-
-
+        <p style="color: #cb483b; font-size: 0.5em; letter-spacing: 5px;">SINGAPORE</p>
 
       </div>
 
-      <div class="cursor-pointer absolute top-0 right-0 m-4" id="navToggle2">
-        <svg class="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+      <div class="hidden md:block h-24 w-3/4">
+        <nav class="flex justify-center items-center h-24" style="color: #cb483b;">
+          <a class="mx-8 mt-4 text-xl" href="#">SHOP EVOO</a>
+          <a class="mx-8 mt-4 text-xl" href="#">BUYING TIPS</a>
+          <a class="mx-8 mt-4 text-xl" href="#">TASTING</a>
+          <a class="mx-8 mt-4 text-xl" href="#">BUSINESSES</a>
+          <a class="mx-8 mt-4 text-xl" href="#">BLOG</a>
+        </nav>
+      </div>
+
+      <div class="cursor-pointer top-0 right-0 m-4 p-4 md:hidden absolute" id="navToggle2">
+        <svg class="h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
         </svg>
       </div>
