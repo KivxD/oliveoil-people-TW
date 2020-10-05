@@ -11,15 +11,52 @@
 
 <body style="background: #6d7773;">
 
-  <header class="fixed relative">
+  <div class="right-0 top-0 z-50 h-full w-full md:hidden fixed transform translate-x-full  duration-500 ease-in" style="background-color: #cecac8;" id="menu">
+
+    <div class="cursor-pointer absolute top-0 right-0 m-4" id="navToggle1">
+      <svg class="h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+
+    </div>
+
+    <nav class="nav-links relative mt-16 items-center flex flex-col tracking-wide" style="color: #cb483b; background-color: #cecac8;">
+      <a class="m-10 text-2xl" href="#">SHOP EVOO</a>
+      <a class="m-10 text-2xl" href="#">BUYING TIPS</a>
+      <a class="m-10 text-2xl" href="#">TASTING</a>
+      <a class="m-10 text-2xl" href="#">BUSINESSES</a>
+      <a class="m-10 text-2xl" href="#">BLOG</a>
+    </nav>
+
+  </div>
+
+  <div class="flex">
+    <header class="top-0 h-24 w-full z-20" style="background-color: #cecac8;">
+
+      <div class="mt-3 ml-2 flex flex-col items-center w-1/2">
 
 
-  </header>
+
+        <p style="color: #cb483b; font-size: 1.5em; letter-spacing: 3.5px;">oliveoilpeople</p>
+        <p class="" style="color: #cb483b; font-size: 0.5em; letter-spacing: 5px;">SINGAPORE</p>
+
+
+
+      </div>
+
+      <div class="cursor-pointer absolute top-0 right-0 m-4" id="navToggle2">
+        <svg class="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+        </svg>
+      </div>
+
+    </header>
+  </div>
 
 
   <main class="p-12 flex flex-col items-center">
 
-    <div class="flex flex-col lg:flex-row align-middle rounded-lg overflow-hidden shadow-lg " style="height: 100vh; width: 85vw; background: #cecac8;">
+    <div class="flex flex-col lg:flex-row align-middle rounded-lg overflow-hidden shadow-lg mt-16" style="height: 100vh; width: 85vw; background: #cecac8;">
 
       <div class="flex lg:w-3/6">
         <img src="assets/growers.jpeg" alt="growers-img" class="object-cover">
@@ -34,7 +71,8 @@
           </div>
 
           <div class="flex justify-center flex-grow-0">
-            <p class="tracking-wide p-5 lg:text-lg text-center" style="color: #1d2134;">From farm to table, we know first-hand what it takes to produce fresh, high-quality extra virgin olive oil. For you, it’s as close as buying directly from the olive grove.</p>
+            <p class="tracking-wide p-5 lg:text-lg text-center" style="color: #1d2134;">From farm to table, we know first-hand what it takes to produce fresh, high-quality extra virgin olive oil. For you, it’s as close as buying directly from the
+              olive grove.</p>
           </div>
 
         </div>
@@ -100,7 +138,8 @@
           </div>
 
           <div class="flex justify-center flex-grow-0">
-            <p class="tracking-wide p-5 lg:text-lg text-center" style="color: #1d2134;">Healthy and tasty meals are important for the well-being of our families. With us, you can explore ways to harness all the goodness and enjoyment that extra virgin olive oil can offer in your favourite
+            <p class="tracking-wide p-5 lg:text-lg text-center" style="color: #1d2134;">Healthy and tasty meals are important for the well-being of our families. With us, you can explore ways to harness all the goodness and enjoyment that extra
+              virgin olive oil can offer in your favourite
               cuisines.
             </p>
           </div>
@@ -135,7 +174,9 @@
           </div>
 
           <div class="flex justify-center flex-grow-0">
-            <p class="tracking-wide p-5 lg:text-lg text-center" style="color: #1d2134;">We believe in staying open and attuned to experts from various disciplines for advice that we can apply to our daily lives. Sharing access to credible sources of information that we can use to make good
+            <p class="tracking-wide p-5 lg:text-lg text-center" style="color: #1d2134;">We believe in staying open and attuned to experts from various disciplines for advice that we can apply to our daily lives. Sharing access to credible sources
+              of
+              information that we can use to make good
               decisions is in everyone’s best
               interest.</p>
           </div>
@@ -156,6 +197,10 @@
     </div>
 
   </main>
+
+  <script src="app.js">
+
+  </script>
 
 </body>
 
